@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>W3Schools Image Maps</title>
+        <script>
+            function myFunction(sector) {
+                alert("You clicked the " + sector)
+            }
+        </script>
+    </head>
+    <body>
+        <img src="assets/how-computer-works.png" alt="Fluxogram on How Computer Works" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="241, 50, 359, 168" href="subfolders/storage.html" alt="Storage" onclick="myFunction('Storage')">
+            <area shape="rect" coords="239, 230, 358, 349" href="subfolders/processing.html" alt="Processing" onclick="myFunction('Processing')">
+            <area shape="rect" coords="59, 229, 179, 349" href="subfolders/input.html" alt="Input" onclick="myFunction('Input')">
+            <area shape="rect" coords="421, 230, 537, 349" href="subfolders/output.html" alt="Output" onclick="myFunction('Output')">
+        </map>
+    </body>
+</html> 
