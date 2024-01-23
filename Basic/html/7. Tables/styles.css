@@ -1,0 +1,25 @@
+.table1 table, .table1 th, .table1 td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+.table1 th, .table1 td {
+    background-color: peachpuff;
+}
+
+.table2 th, .table2 td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.table3 table, .table3 th, .table3 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+
+.table4 table, .table4 th, .table4 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: palegreen;
+}
