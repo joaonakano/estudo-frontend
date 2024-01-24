@@ -39,3 +39,8 @@
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+.table8 table, .table8 th, .table8 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
