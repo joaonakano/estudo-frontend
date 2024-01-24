@@ -23,3 +23,19 @@
     border-collapse: collapse;
     border-color: palegreen;
 }
+
+.table5 table, .table5 th, .table5 td {
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table6 table, .table6 th, .table6 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table7 table, .table7 th, .table7 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
