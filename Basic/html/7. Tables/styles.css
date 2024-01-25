@@ -44,3 +44,120 @@
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+.table9 table, .table9 th, .table9 td {
+    border: 1px solid black;
+}
+
+.table9 td {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 12px;
+}
+
+.table10 table, .table10 th, .table10 td {
+    border: 1px solid black;
+    border-spacing: 10px;           /* By default, the spacing is set 2 pixels wide */
+}
+
+.table11 table, .table11 th, .table11 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table12 table, .table12 th, .table12 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table13 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table13 tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+.table14 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table14 td:nth-child(even), .table14 th:nth-child(even) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.table14 td:nth-child(odd), .table14 th:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+
+.table15 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table15 th:nth-child(even), .table15 td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.table15 tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.table16 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table16 tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+.table17 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table17 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table17 tr:hover {
+    background-color: #D6EEEE;
+}
+
+.table18 table, .table18 th, .table18 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.table18 th {
+    width: 100px;
+}
+
+.table19 table, .table19 th, .table19 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.table19 th {
+    width: 100px;
+}
+
+.table20 table, .table20 th, .table20 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.table20 th {
+    width: 100px;
+}
