@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>W3Schools: Classes</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Styling the same class in multiple DIV</h2> 
+        <div class="city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+        </div>
+        <div class="city">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+        </div>
+        <div class="city">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+        <hr>
+        <h2>Styling the span class attribute</h2>
+        <h3>My <span class="note">Important</span> Heading</h3>
+        <p>This is some <span class="note">important</span> text.</p>
+        <hr>
+        <h2>Multiple classes</h2>
+        <h3 class="city main">London</h3>
+        <h3 class="city">Paris</h3>
+        <h3 class="city">Tokyo</h3>
+        <div class="button">
+            <button onclick="myFunction()">Erase Style</button>
+        </div>
+    </body>
+</html>
