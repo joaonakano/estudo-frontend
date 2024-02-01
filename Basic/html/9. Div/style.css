@@ -1,11 +1,27 @@
-.london {
-    background-color: #FDFD96;
+div.container {
+    width:100%;
+    overflow: auto;
 }
 
-.oslo {
-    background-color: #FF6961;
+div.container div {
+    width: 33%;
+    float: left;
 }
 
-.rome {
-    background-color: #77DD77;
+div.container2 div {
+    width:30%;
+    display: inline-block
+}
+
+.container3 {
+    display: flex;
+}
+
+.container3 > div {
+    width: 33%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
