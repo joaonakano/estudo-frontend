@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>W3Schools: JavaScript</title>
+    </head>
+    <body>
+        <h1>My First JavaScript</h1>
+        <p>JavaScript changes the picture when pressing one of the buttons.</p>
+        <img src="assets/image1.jfif" id="myImage">
+
+        <script>
+            function changeLight(state){
+                if (state == 1) {
+                    pic = "assets/image2.png"
+                } else {
+                    pic = "assets/image1.jfif"
+                }
+                document.getElementById('myImage').src = pic;
+            }
+        </script>
+        <noscript>Sorry, your browser doesn't support JavaScript yet.</noscript>
+        
+        <p>
+        <button onclick="changeLight(1)">Light ON</button>
+        <button onclick="changeLight(0)">Light OFF</button>
+        </p>
+    </body>
+</html>
